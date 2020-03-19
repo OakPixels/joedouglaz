@@ -32,6 +32,7 @@ function loadjs()
 add_action('wp_enqueue_scripts', 'loadjs');
 
 add_theme_support('menus');
+add_theme_support('post-thumbnails');
 
 register_nav_menus(
   array(
@@ -39,3 +40,9 @@ register_nav_menus(
     'footer-menu' => __('Footer Menu', 'theme'),
   )
 );
+
+add_image_size('smallest', 200, 200, true);
+add_image_size('small', 400, 400, true);
+add_image_size('medium', 600, 600, true);
+add_image_size('large', 800, 800, true);
+add_image_size('largest', 1000, 1000, true);
