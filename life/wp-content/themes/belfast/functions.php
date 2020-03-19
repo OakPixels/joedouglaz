@@ -12,6 +12,7 @@ function load_stylesheets()
 }
 add_action('wp_enqueue_scripts', 'load_stylesheets');
 
+
 function load_jquery()
 {
   wp_deregister_script('jquery');
@@ -23,6 +24,7 @@ function load_jquery()
 }
 add_action('wp_enqueue_scripts', 'load_jquery');
 
+
 function loadjs()
 {
   wp_register_script('myjs', get_template_directory_uri() . '/js/scripts.js',
@@ -30,6 +32,7 @@ function loadjs()
   wp_enqueue_script('myjs');
 }
 add_action('wp_enqueue_scripts', 'loadjs');
+
 
 add_theme_support('menus');
 add_theme_support('post-thumbnails');
