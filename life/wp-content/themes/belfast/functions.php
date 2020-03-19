@@ -30,3 +30,5 @@ function loadjs()
   wp_enqueue_script('myjs');
 }
 add_action('wp_enqueue_scripts', 'loadjs');
+
+add_theme_support('menus');
