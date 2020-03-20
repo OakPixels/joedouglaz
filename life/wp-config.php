@@ -20,6 +20,9 @@
 
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
+define( 'WP_HOME', 'http://192.168.64.3/joe/joedouglaz/life/index.php' );
+define( 'WP_SITEURL', 'http://192.168.64.3/joe/joedouglaz/life' );
+
 define( 'DB_NAME', 'u883303549_wordpress' );
 
 /** MySQL database username */
@@ -29,7 +32,7 @@ define( 'DB_USER', 'u883303549_oak3' );
 define( 'DB_PASSWORD', 'enterthedragon' );
 
 /** MySQL hostname */
-define( 'DB_HOST', 'localhost' );
+define( 'DB_HOST', '45.13.252.1' );
 
 /** REMOTE */
 /** define( 'DB_HOST', '45.13.252.1' ); */

@@ -4,7 +4,7 @@ Author: Joe Douglaz
 */
 
 body {
-  background: grey;
+  /*background: grey;*/
 }
 
 header {
@@ -16,5 +16,10 @@ header {
 
 .navigation {
   display: inline;
+  color: white;
+}
+
+.card {
+  font-family: "Times New Roman", Times, serif;
   color: white;
 }
