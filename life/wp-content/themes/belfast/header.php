@@ -8,7 +8,7 @@
 <body <?php body_class();?>>
 
 <header class="sticky-top">
-  <div class="navbar navbar-expand-lg navbar-light">
+  <div class="container">
     <?php wp_nav_menu(
       array(
         'theme_location' => 'top-menu',
