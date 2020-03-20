@@ -22,8 +22,6 @@ header {
   position: absolute;
   right: 0px;
   height: 40px;
-  text-align: center;
-  display: flex;
 }
 
 .navigation li {
