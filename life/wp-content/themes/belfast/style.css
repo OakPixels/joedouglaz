@@ -2,13 +2,9 @@
 Theme Name: Belfast
 Author: Joe Douglaz
 */
-
-@import url('https://fonts.googleapis.com/css?family=Baloo+2&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Catamaran:800&display=swap');
-
 body {
   background: light-grey;
-  font-family: 'Baloo 2', cursive;
+  font-family: 'Baloo 2', cursive!important;
 }
 
 header {
@@ -22,14 +18,29 @@ header {
   position: absolute;
   right: 0px;
   height: 40px;
+  text-align: center;
+  display: flex;
 }
 
 .navigation li {
   display: inline-block;
+  letter-spacing: .1rem;
+  padding-right: 20px;
+}
+
+.navigation li a {
+  text-decoration: none;
+  font-family: 'Catamaran', sans-serif;
   text-transform: uppercase;
   font-weight: 800;
   font-size: .9rem;
-  letter-spacing: .1rem;
-  padding-right: 20px;
-  font-family: 'Catamaran', sans-serif;
+  border-bottom: 1px solid lightgrey;
+}
+
+.navigation li a:hover {
+  border-bottom: 2px solid black;
+}
+
+#home {
+  margin: 20px 20px;
 }
