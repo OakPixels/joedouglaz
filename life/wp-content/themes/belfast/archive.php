@@ -12,8 +12,6 @@
         <?php if(has_post_thumbnail()):?>
           <img src="<?php the_post_thumbnail_url('smallest');?>" class="img-fluid">
         <?php endif;?>
-
-        <?php the_excerpt();?>
         <a href="<?php the_permalink();?>" class="btn btn-success">Vote Now</a>
       </div>
     </div>
