@@ -5,6 +5,7 @@ Author: Joe Douglaz
 body {
   background: light-grey;
   font-family: 'Baloo 2', cursive!important;
+  font-size: 1.5rem;
 }
 
 #logo {
