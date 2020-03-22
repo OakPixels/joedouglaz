@@ -2,7 +2,7 @@
 <html>
   <head>
     <?php wp_head();?>
-
+    <link href="https://fonts.googleapis.com/css?family=Baloo+2|Catamaran:800&display=swap" rel="stylesheet">
   </head>
 </html>
 <body <?php body_class();?>>
