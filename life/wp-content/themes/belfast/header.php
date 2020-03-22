@@ -8,6 +8,7 @@
 <body <?php body_class();?>>
 
 <header class="sticky-top">
+  <a href="http://life.joedouglaz.com"> <img id="logo" src="http://192.168.64.3/wordpress/wp-content/themes/belfast/img/tree.png"> </a>
   <div class="container">
     <?php wp_nav_menu(
       array(
