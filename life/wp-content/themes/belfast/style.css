@@ -16,7 +16,7 @@ body {
 header {
   background: white;
   width: 100%;
-  height: 100px;
+  height: 30px;
   margin: 0px 10px;
 }
 
@@ -48,5 +48,9 @@ header {
 }
 
 #home {
+  margin: 20px 20px;
+}
+
+#archive {
   margin: 20px 20px;
 }
