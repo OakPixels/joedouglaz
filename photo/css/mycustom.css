@@ -1,0 +1,16 @@
+/*!
+ * Start Bootstrap - Grayscale v5.0.6 (https://startbootstrap.com/template-overviews/grayscale)
+ * Copyright 2013-2019 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-grayscale/blob/master/LICENSE)
+ */
+
+a.link {
+  background:none;
+  border:none;
+  font-size:48px;
+  color:white;
+}
+
+img[src="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhost-white2.png"] {
+    display: none;
+}
