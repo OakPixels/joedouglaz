@@ -2,7 +2,7 @@
 
 body {
   overflow-x: hidden; /* content stays within page */
-  font-family: 'Kalam', cursive;
+  font-family: 'Raleway', sans-serif;
   color: #505962;
 }
 
@@ -168,10 +168,10 @@ h3.heading {
   margin-bottom: .8rem;
 }
 
-/* Clients Section */
-.clients img {
+/* CM Section */
+#cm img {
   width: 100%;
-  border-radius: 50%;
+  margin-bottom: 1rem;
 }
 blockquote svg.svg-inline--fa {
   color: #1ebba3;

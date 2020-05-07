@@ -8,9 +8,12 @@
     <title>Joe Douglas - Portfolio</title>
     <link rel="stylesheet" href="bootstrap-4.1.3-dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
     <!-- Display fixed background img on cell phones and tablets -->
     <link rel="stylesheet" href="css/fixed.css">
-    <link href="https://fonts.googleapis.com/css?family=Kalam&display=swap" rel="stylesheet">
+    <!-- Lightbox Gallery -->
+    <link href="photo/css/fluid-gallery.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.css" rel="stylesheet">
 
   </head>
   <!-- data-spy tells the navbar as to which section of page you are on -->
@@ -36,9 +39,9 @@
             <li class="nav-item">
               <a class="nav-link" href="#skills">Skills</a>
             </li>
-            <!--<li class="nav-item">
-              <a class="nav-link" href="#clients">Clients</a>
-            </li>-->
+            <li class="nav-item">
+              <a class="nav-link" href="#cm">Content Management</a>
+            </li>
             <li class="nav-item">
               <a class="nav-link" href="#contact">Contact</a>
             </li>
@@ -60,7 +63,6 @@
         <h3>Web Design Portfolio</h3>
         <a class="btn btn-outline-light btn-lg" href="#websites">Read more</a>
         <a class="btn btn-outline-light btn-lg" href="http://photo.joedouglaz.com" target="_blank">Photography</a>
-        <a class="btn btn-outline-light btn-lg" href="http://life.joedouglaz.com" target="_blank">Blog</a>
       </div>
 
       <!-- End Landing Page Section -->
@@ -73,7 +75,7 @@
       <div class="jumbotron">
         <div class="narrow text-center">
           <div class="col-12 head">
-            <h3 class="heading">Portfolio & Products</h3>
+            <h3 class="heading">Portfolio</h3>
             <div class="heading-underline"></div>
           </div>
           <!-- Start row -->
@@ -106,8 +108,8 @@
                     <a href="https://demo-marina.herokuapp.com/" target="_blank" class="portlink">Visit Site</a>
                   </div>
                 </div>
-                <h3>Marina Python App</h3>
-                <p>A responsive demo built using HTML, CSS and Python Flask. Updates from an excel spreadsheet. Currently in use by a marina.</p>
+                <h3>Marina App</h3>
+                <p>A Python app built using HTML, CSS, Bootstrap and Flask. Updates from an excel spreadsheet. Built for a UK marina. Features encrypted security and login.</p>
               </div>
             </div>
 
@@ -122,8 +124,8 @@
                     <a href="https://aditheory.com" target="_blank" class="portlink">Visit Site</a>
                   </div>
                 </div>
-                <h3>ADI Theory</h3>
-                <p>A training website for students built using HTML, CSS and PHP. Features individual logins and a MySQL database that saves answers given by each user.</p>
+                <h3>Training Website</h3>
+                <p>ADI Theory - A training website for students built using HTML, CSS and PHP. Features individual logins and a MySQL database that saves answers given by each user.</p>
               </div>
             </div>
 
@@ -138,8 +140,24 @@
                     <a href="https://secure-badlands-73742.herokuapp.com/" target="_blank" class="portlink">Visit Site</a>
                   </div>
                 </div>
-                <h3>ToDo Application</h3>
-                <p>A Python application that allows users to keep a TODO list.</p>
+                <h3>To-Do App</h3>
+                <p>A Python application that allows users to keep a To-Do list.</p>
+              </div>
+            </div>
+
+            <div class="col-sm-6 col-lg-4">
+              <div class="feature">
+                <div class="container">
+                  <img src="img/blog.png"></img>
+                  <div class="overlay files">
+                    <a href="https://github.com/JoeD2/joedouglaz" target="_blank" class="portlink">View Code</a>
+                  </div>
+                  <div class="overlay">
+                    <a href="https://life.joedouglaz.com" target="_blank" class="portlink">Visit Site</a>
+                  </div>
+                </div>
+                <h3>Wordpress Blog</h3>
+                <p>A responsive blog built using PHP and Wordpress. Hosts from a MySQL database. Allows easy updates and blogging.</p>
               </div>
             </div>
               <!-- End Row -->
@@ -192,6 +210,52 @@
           </div>
         </div>
         <!-- End row dark -->
+
+        <!-- Start Content Management Section -->
+        <div id="cm" class="offset">
+          <!-- Start Jumbotron -->
+          <div class="jumbotron">
+            <div class="narrow text-center">
+              <div class="col-12 head">
+                <h3 class="heading">Content Management</h3>
+                <div class="heading-underline"></div>
+              </div>
+              <!-- Start Gallery -->
+              <div class="col-12">
+                <div class="gallery-container">
+                  <div class="tz-gallery">
+                      <div class="row">
+                        <div class="col-sm-6" style="padding: 20px;">
+                          <a class="lightbox" href="img/wordpress.png">
+                              <img src="img/wordpress.png"></img>
+                          </a>
+                        </div>
+                        <div class="col-sm-6" style="padding: 20px;">
+                          <a class="lightbox" href="img/wordpress2.png">
+                              <img src="img/wordpress2.png"></img>
+                          </a>
+                        </div>
+                      <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.js"></script>
+                      <script>
+                          baguetteBox.run('.tz-gallery');
+                      </script>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-12">
+                      <h3>We use Wordpress!</h3>
+                      <p>This allows clients to easily login, update their website and add new pages.</p>
+                      <p>A powerful content mangement system.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- End Gallery -->
+          </div>
+          <!-- End Jumbotron -->
+        </div>
+        <!-- End Content Management Section -->
 
         <div class="fixed-wrap">
           <div class="fixed">
