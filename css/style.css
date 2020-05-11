@@ -53,11 +53,10 @@ body {
   text-transform: uppercase;
 }
 .caption h1 {
-  font-size: 3rem;
+  font-size: 5rem;
   letter-spacing: .2rem;
   text-shadow: .1rem .1rem .8rem black;
-  padding-bottom: .5rem;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Reenie Beanie', cursive;
 }
 .caption h3 {
   font-size: 2rem;
@@ -153,7 +152,7 @@ h3.heading {
 }
 
 /* Start Skills Section */
-.fixed {
+#skills .fixed {
   background-image: url(../img/apple.png);
   z-index: -1;
 }
@@ -182,7 +181,10 @@ blockquote svg.svg-inline--fa {
 }
 
 /* Hosting */
-
+#hosting .fixed {
+  background-image: url(../img/hosting.png);
+  z-index: -1;
+}
 
 /* Contact Section */
 footer {
