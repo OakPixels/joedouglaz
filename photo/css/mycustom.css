@@ -4,6 +4,19 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-grayscale/blob/master/LICENSE)
  */
 
+.masthead h1 {
+  font-family: 'Reenie Beanie', cursive;
+  padding-bottom: 5px;
+}
+.masthead h2 {
+  text-transform: uppercase;
+  letter-spacing: 1rem;
+  line-height: 2rem;
+}
+.masthead h2 strong{
+  font-size: 3rem;
+  font-family: 'Reenie Beanie', cursive;
+}
 a.link {
   background:none;
   border:none;
