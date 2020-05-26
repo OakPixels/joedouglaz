@@ -52,14 +52,13 @@ body {
   color: white;
 }
 .caption h1 {
+  text-transform: uppercase;
   font-size: 4rem;
   letter-spacing: 1rem;
   text-shadow: .1rem .1rem .8rem black;
-  text-transform: uppercase;
   font-family: 'Reenie Beanie', cursive;
 }
 .caption h3 {
-  text-transform: uppercase;
   font-size: 2rem;
   letter-spacing: .2rem;
   text-shadow: .1rem .1rem .5rem black;
