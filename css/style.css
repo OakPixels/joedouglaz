@@ -249,6 +249,9 @@ hr.socket {
     width: 100%;
     left: 0;
   }
+  footer img {
+    width: 100%;
+  }
 }
 
 /* BOOTSTRAP SIZE BREAK POINTS:
