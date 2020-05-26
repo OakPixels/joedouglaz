@@ -167,11 +167,7 @@ h3.heading {
   margin-bottom: .8rem;
 }
 
-/* CM Section */
-#cm img {
-  width: 100%;
-  margin-bottom: 1rem;
-}
+/* Products Section */
 blockquote svg.svg-inline--fa {
   color: #1ebba3;
   margin: .5rem;
@@ -187,16 +183,19 @@ blockquote svg.svg-inline--fa {
 }
 
 /* Contact Section */
+footer img {
+  border-radius: 50%;
+  width: 40%;
+  margin: 1rem 0rem;
+}
+
 footer {
   background-color: #40474e;
   color: white;
   padding: 2rem 0 2rem;
   font-family: 'Lato', sans-serif;
 }
-footer img {
-  height: 3rem;
-  margin: 1.5rem 0;
-}
+
 footer a {
   color: white;
 }
